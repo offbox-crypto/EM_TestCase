@@ -1,2 +1,64 @@
 <!-- Пример отклика сервера (БД) в формате json -->
 ## Response
+{
+  "success": true,
+  "timestamp": "2024-05-15T10:30:00Z",
+  "data": [
+    {
+      "Id": 101,
+      "Name": "Metro.",
+      "Status": "active",
+      "Delivery": true,
+      "DeliveryType": "standard",
+      "DeliveryTime": "21:00-23:00",
+      "PartnerURL": "https://metro.com",
+      "PartnerLogo": "https://metro.com/logos/logo.png"
+    },
+    {
+      "Id": 102,
+      "Name": "Ashan",
+      "Status": "active",
+      "Delivery": true,
+      "DeliveryType": "standard",
+      "DeliveryTime": "18:00-20:00",
+      "PartnerURL": "https://ashan.com",
+      "PartnerLogo": "https://ashan.com/logos/logo.svg"
+    },
+    {
+      "Id": 103,
+      "Name": "VkusVyll",
+      "Status": "active",
+      "Delivery": true,
+      "DeliveryType": "express",
+      "DeliveryTime": "20mm-60mm",
+      "PartnerURL": "https://VkusVyll.com",
+      "PartnerLogo": "https://VkusVyll.com/logos/logo.jpg"
+    },
+    {
+      "Id": 104,
+      "Name": "Victoria",
+      "Status": "active",
+      "Delivery": true,
+      "DeliveryType": "standard",
+      "DeliveryTime": "18:00-20:00",
+      "PartnerURL": "https://VkusVyll.com",
+      "PartnerLogo": "https://VkusVyll.com/logos/logo.jpg"
+    },
+    {
+      "Id": 105,
+      "Name": "Apple",
+      "Status": "inactive",
+      "Delivery": false,
+      "DeliveryType": null,
+      "DeliveryTime": null,
+      "PartnerURL": "https://Apple.com",
+      "PartnerLogo": "https://Apple.com/logos/logo.jpg"
+    }
+  ],
+  "pagination": {
+    "total": 5,
+    "page": 1,
+    "per_page": 20,
+    "total_pages": 1
+  }
+}
